@@ -23,7 +23,12 @@ class _LearnFlutterPageState extends State<LearnFlutterPage> {
         ),
       ),
       body: Column(
-        children: [Image.asset('images/einstein.jpg')],
+        children: [
+          Image.asset('images/einstein.jpg'),
+          const Divider(
+            color: Colors.amber,
+          )
+        ],
       ),
     );
   }
